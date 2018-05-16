@@ -86,6 +86,8 @@ previous_val_error = 0
 
 
 def percentage(whole):
+    if epoch < 5:
+        return 0;
     return (2 * whole) / 100.0
 
 
